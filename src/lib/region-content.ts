@@ -147,7 +147,7 @@ export function getRegionFaqs(region: Region): RegionFaq[] {
     },
     {
       question: `Bieten Sie Privatumzüge in ${name} an?`,
-      answer: `Ja, Privatumzüge in ${name} gehören zu unseren häufigsten Aufträgen. Wir übernehmen Verpackung, Demontage, Transport und Möbelmontage – von der Einzimmerwohnung bis zum Einfamilienhaus. Kostenlose Besichtigung und Offerte innerhalb von 24 Stunden.`,
+      answer: `Ja, Privatumzüge in ${name} gehören zu unseren häufigsten Aufträgen. Wir übernehmen Verpackung, Demontage, Transport und Möbelmontage – von der Einzimmerwohnung bis zum Einfamilienhaus. Kostenlose Besichtigung – wir melden uns innerhalb von 24 Stunden bei Ihnen.`,
     },
     {
       question: `Führen Sie auch Geschäftsumzüge in ${name} durch?`,
@@ -224,7 +224,7 @@ ${getPriceNote(distanceKm)} Alle Preise sind Richtwerte – die genaue Offerte e
 
 1. **Anfrage:** Kontakt per Telefon, E-Mail oder Online-Formular. Wir besprechen Termin, Wohnungsgrösse und besondere Anforderungen in ${name}.
 2. **Besichtigung:** Kostenlose Besichtigung vor Ort in ${name} – wir erfassen Volumen, Zugang und Stockwerk.
-3. **Offerte:** Transparente, unverbindliche Offerte innerhalb von 24 Stunden.
+3. **Rückmeldung:** Wir melden uns innerhalb von 24 Stunden bei Ihnen und erstellen eine transparente, unverbindliche Offerte.
 4. **Umzugstag:** Pünktliches Team, Schutz von Böden und Treppen, sorgfältiger Transport nach Plan.
 5. **Einzug:** Möbelmontage, Abstellung der Kartons, Abschlusskontrolle mit Ihnen.
 
@@ -234,12 +234,11 @@ ${specifics}
 
 - **Lokaler Partner** mit Sitz in Bern – keine anonyme Fernumzugsfirma
 - **Erfahrung in ${name}** und der gesamten Region (${distanceFromBern} von Bern)
-- **Transparente Preise** – kostenlose Besichtigung, Offerte innerhalb 24 Stunden
-- **Versicherung inklusive** – Ihr Inventar ist während des Transports abgesichert
+- **Transparente Preise** – kostenlose Besichtigung, Rückmeldung innerhalb von 24 Stunden
 - **Flexibel** – Privatumzug, Geschäftsumzug, Räumungen, Reinigungen und Wochenendtermine
 - **Persönliche Betreuung** – feste Ansprechpartner von der Planung bis zum Einzug
 
-Planen Sie Ihren Umzug in ${name}? Fordern Sie jetzt Ihre kostenlose Offerte an – unverbindlich und innerhalb von 24 Stunden.`;
+Planen Sie Ihren Umzug in ${name}? Fordern Sie jetzt Ihre kostenlose Offerte an – wir melden uns innerhalb von 24 Stunden bei Ihnen.`;
 }
 
 export function getNearbyRegions(region: Region, allRegions: Region[], limit = 6): Region[] {

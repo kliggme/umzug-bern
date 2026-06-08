@@ -197,7 +197,7 @@ export default async function ServicePage({ params }: Props) {
               <div className="bg-primary rounded-lg p-6 text-white">
                 <h3 className="font-bold text-accent mb-2">Kostenlose Offerte</h3>
                 <p className="text-white/70 text-sm mb-4">
-                  Erhalten Sie innerhalb von 24 Stunden eine unverbindliche Offerte für Ihren {service.shortTitle} in Bern.
+                  Wir nehmen innerhalb von 24 Stunden Kontakt mit Ihnen auf – für Ihren {service.shortTitle} in Bern.
                 </p>
                 <Link
                   href="/angebot"
@@ -213,7 +213,7 @@ export default async function ServicePage({ params }: Props) {
 
       <CTA
         title={`${service.shortTitle} in Bern?`}
-        subtitle={`Fordern Sie jetzt Ihre kostenlose Offerte für ${service.shortTitle} an – unverbindlich und innerhalb von 24 Stunden.`}
+        subtitle={`Fordern Sie jetzt Ihre kostenlose Offerte für ${service.shortTitle} an – wir melden uns innerhalb von 24 Stunden bei Ihnen.`}
       />
     </>
   );

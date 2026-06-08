@@ -8,7 +8,7 @@ type CTAProps = {
 
 export default function CTA({
   title = "Jetzt einfach online anfragen",
-  subtitle = "Erhalten Sie innerhalb von 24 Stunden eine unverbindliche Offerte für Ihren Umzug in Bern.",
+  subtitle = "Wir nehmen innerhalb von 24 Stunden Kontakt mit Ihnen auf – für Ihren Umzug in Bern.",
 }: CTAProps) {
   return (
     <section className="py-16 bg-primary">

@@ -30,7 +30,7 @@ export const services: Service[] = [
       "Kostenlose Besichtigung und Offerte",
       "Professionelle Verpackung und Demontage",
       "Möbelmontage am Zielort",
-      "Versicherungsschutz inklusive",
+      "Persönliche Betreuung",
       "Flexible Terminplanung",
     ],
     highlights: [
@@ -56,15 +56,13 @@ Ein Privatumzug umfasst den kompletten Transport Ihres Haushalts von der alten z
 
 ## Unsere Privatumzug-Leistungen im Detail
 
-**Besichtigung und Offerte:** Vor jedem Umzug führen wir eine kostenlose Besichtigung durch – vor Ort oder per Video. So erfassen wir Stockwerk, Liftverhältnisse, Zugangswege und das genaue Volumen. Sie erhalten innerhalb von 24 Stunden eine transparente, unverbindliche Offerte ohne versteckte Kosten.
+**Besichtigung und Offerte:** Vor jedem Umzug führen wir eine kostenlose Besichtigung durch – vor Ort oder per Video. So erfassen wir Stockwerk, Liftverhältnisse, Zugangswege und das genaue Volumen. Wir melden uns innerhalb von 24 Stunden bei Ihnen und erstellen daraufhin eine transparente, unverbindliche Offerte ohne versteckte Kosten.
 
 **Verpackung und Schutz:** Auf Wunsch verpacken wir Ihr gesamtes Inventar professionell. Möbel werden mit Decken und Folie geschützt, empfindliche Gegenstände wie Spiegel, Bilder und Geschirr separat gesichert. Standard-Umzugsmaterial wie Kartons, Klebeband und Luftpolsterfolie stellen wir bereit.
 
 **Demontage und Montage:** Betten, Schränke, Regale und Tische werden fachgerecht demontiert und am Zielort wieder aufgebaut. So sparen Sie Zeit und vermeiden Beschädigungen durch unsachgemässes Handling.
 
 **Transport und Logistik:** Unser moderner Fahrzeugpark reicht von Transportern für kleine Wohnungen bis zu grossen Umzugswagen mit Hebebühne. Wir planen die Route effizient und koordinieren Parkplätze sowie Halteverbotszonen – besonders wichtig in der Berner Altstadt und in dicht bebauten Quartieren.
-
-**Versicherung:** Alle Umzüge sind durch unsere Transportversicherung abgedeckt. Schäden sind ausgeschlossen, nicht nur unwahrscheinlich – Sie sind abgesichert.
 
 ## So läuft Ihr Privatumzug in Bern ab
 
@@ -325,7 +323,7 @@ Typische Räumungsaufträge:
 | Komplette Haushaltsauflösung | CHF 1'500 – 4'000 |
 | Büro- oder Gewerberäumung | nach Besichtigung |
 
-Die genauen Kosten hängen von Volumen, Zugang, Stockwerk, Lift und Entsorgungsaufwand ab. Nach einer kostenlosen Besichtigung erstellen wir eine transparente Offerte – oft innerhalb von 24 Stunden.
+Die genauen Kosten hängen von Volumen, Zugang, Stockwerk, Lift und Entsorgungsaufwand ab. Nach einer kostenlosen Besichtigung erstellen wir eine transparente Offerte.
 
 ## Wann lohnt sich eine professionelle Räumung?
 
@@ -345,7 +343,7 @@ Unser Standort in Bern (3027) ist ideal für Räumungen im Kanton Bern: Köniz, 
 
 1. **Anfrage:** Sie schildern uns den Umfang – telefonisch, per E-Mail oder über unser Formular.
 2. **Besichtigung:** Kostenlose Besichtigung vor Ort – wir erfassen Volumen, Zugang und besondere Anforderungen.
-3. **Offerte:** Transparente, unverbindliche Offerte innerhalb von 24 Stunden.
+3. **Rückmeldung:** Wir melden uns innerhalb von 24 Stunden bei Ihnen und erstellen eine transparente, unverbindliche Offerte.
 4. **Räumung:** Unser Team räumt termingerecht, sortiert brauchbare Gegenstände und transportiert alles ab.
 5. **Entsorgung:** Fachgerechte Entsorgung und besenreine Übergabe auf Wunsch.
 
@@ -452,7 +450,7 @@ Typische Reinigungsaufträge:
 | Büroreinigung (nach m²) | ab CHF 4.50/m² |
 | Fensterreinigung (Zuschlag) | ab CHF 110 |
 
-Die genauen Kosten hängen von Wohnungsgrösse, Zustand, Stockwerk und Umfang ab. Nach einer Besichtigung erstellen wir eine transparente Offerte – oft innerhalb von 24 Stunden.
+Die genauen Kosten hängen von Wohnungsgrösse, Zustand, Stockwerk und Umfang ab. Nach einer Besichtigung erstellen wir eine transparente Offerte.
 
 ## Wann lohnt sich eine professionelle Reinigung?
 
@@ -472,7 +470,7 @@ Unser Standort in Bern (3027) ist ideal für Reinigungen im Kanton Bern: Köniz,
 
 1. **Anfrage:** Sie schildern uns Wohnungsgrösse, Zustand und Wunschtermin.
 2. **Besichtigung:** Bei Bedarf schauen wir uns die Räume vor Ort an.
-3. **Offerte:** Transparente, unverbindliche Offerte innerhalb von 24 Stunden.
+3. **Rückmeldung:** Wir melden uns innerhalb von 24 Stunden bei Ihnen und erstellen eine transparente, unverbindliche Offerte.
 4. **Reinigung:** Unser Team reinigt gründlich nach Checkliste – termingerecht vor Ihrer Übergabe.
 5. **Abnahme:** Mit Abnahmegarantie – bei Beanstandungen kommen wir kostenlos nach.
 

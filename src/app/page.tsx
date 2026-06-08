@@ -26,7 +26,7 @@ export default function HomePage() {
               { value: "35+", label: "Jahre Erfahrung" },
               { value: "2'000+", label: "Zufriedene Kunden" },
               { value: "30", label: "Regionen abgedeckt" },
-              { value: "100%", label: "Versichert" },
+              { value: "CH", label: "Schweizweit im Einsatz" },
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="text-3xl lg:text-4xl font-bold text-accent">{stat.value}</p>
@@ -53,7 +53,7 @@ export default function HomePage() {
               <ul className="mt-6 space-y-3">
                 {[
                   "Kostenlose Besichtigung und Offerte",
-                  "Versicherter Transport Ihres Hab und Guts",
+                  "Persönliche Betreuung von Anfang bis Ende",
                   "Erfahrene und geschulte Umzugsprofis",
                   "Flexible Terminplanung – auch am Wochenende",
                   "Transparente Preise ohne versteckte Kosten",
@@ -88,7 +88,7 @@ export default function HomePage() {
               <div className="absolute bottom-0 left-0 right-0 p-8 lg:p-10">
                 <h3 className="text-xl font-bold text-white mb-2">Jetzt Angebot anfordern</h3>
                 <p className="text-white/80 text-sm mb-6">
-                  In nur 2 Minuten online anfragen – wir melden uns innerhalb von 24 Stunden mit einer unverbindlichen Offerte.
+                  In nur 2 Minuten online anfragen – wir nehmen innerhalb von 24 Stunden Kontakt mit Ihnen auf.
                 </p>
                 <Link
                   href="/angebot"

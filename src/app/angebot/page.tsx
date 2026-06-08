@@ -6,7 +6,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata = createMetadata({
   title: "Angebot anfordern – Kostenlose Umzugsofferte Bern",
   description:
-    "Fordern Sie jetzt Ihre kostenlose und unverbindliche Umzugsofferte für Bern an. In 2 Minuten online – Antwort innerhalb von 24 Stunden.",
+    "Fordern Sie jetzt Ihre kostenlose und unverbindliche Umzugsofferte für Bern an. In 2 Minuten online – wir melden uns innerhalb von 24 Stunden bei Ihnen.",
   path: "/angebot",
   keywords: ["umzug offerte bern", "umzug angebot", "umzugskosten bern"],
 });
@@ -17,7 +17,7 @@ export default function AngebotPage() {
       <Hero
         title="Angebot anfordern"
         highlight="Angebot"
-        subtitle="In nur 2 Minuten online anfragen – wir erstellen Ihnen innerhalb von 24 Stunden eine unverbindliche Offerte."
+        subtitle="In nur 2 Minuten online anfragen – wir nehmen innerhalb von 24 Stunden Kontakt mit Ihnen auf."
         showCta={false}
         compact
       />
@@ -36,7 +36,7 @@ export default function AngebotPage() {
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
             {[
               { step: "1", title: "Anfrage senden", desc: "Formular ausfüllen" },
-              { step: "2", title: "Offerte erhalten", desc: "Innerhalb 24h" },
+              { step: "2", title: "Kontakt aufnehmen", desc: "Innerhalb 24h" },
               { step: "3", title: "Umzug buchen", desc: "Termin vereinbaren" },
             ].map((item) => (
               <div key={item.step} className="bg-surface border border-border rounded-lg p-4">

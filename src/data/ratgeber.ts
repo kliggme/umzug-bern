@@ -192,14 +192,14 @@ Für wertvolle Möbel, Antiquitäten oder Elektronik empfehlen wir eine Vollkask
   },
   {
     slug: "umzug-entsorgen",
-    title: "Entrümpeln vor dem Umzug: Was darf weg?",
+    title: "Entrümpeln vor oder nach dem Umzug: Was darf weg?",
     excerpt:
-      "Vor dem Umzug entrümpeln spart Kosten und Platz. Tipps zur Entsorgung und zum Verkauf in Bern.",
+      "Entrümpeln vor oder nach dem Umzug spart Kosten und Platz. Tipps zur Entsorgung und zum Verkauf in Bern.",
     category: "Planung",
     datePublished: "2026-03-10",
     readTime: "4 Min.",
     tags: ["entrümpeln", "entsorgung", "sparen"],
-    content: `Je weniger Sie mitnehmen, desto günstiger der Umzug. Entrümpeln vor dem Umzug ist die effektivste Methode, um Kosten zu sparen.
+    content: `Je weniger Sie mitnehmen, desto günstiger der Umzug. Entrümpeln vor oder nach dem Umzug ist eine effektive Methode, um Kosten zu sparen und Platz zu schaffen.
 
 ## Die Vier-Boxen-Methode
 Teilen Sie Ihre Gegenstände in vier Kategorien:

@@ -58,7 +58,7 @@ export default function UeberUnsPage() {
                 { title: "Erfahrung", desc: "Über 35 Jahre Erfahrung in der Umzugsbranche in Bern und der Schweiz." },
                 { title: "Team", desc: "Geschulte und motivierte Umzugsprofis, die Ihr Hab und Gut behandeln wie ihr eigenes." },
                 { title: "Ausstattung", desc: "Moderner Fahrzeugpark, Hebebühnen, Möbeldecken und professionelles Werkzeug." },
-                { title: "Versicherung", desc: "Vollständiger Versicherungsschutz für Transport und Haftpflicht." },
+                { title: "Zuverlässigkeit", desc: "Pünktliche Termine, faire Preise und ein Team, auf das Sie sich verlassen können." },
               ].map((item) => (
                 <div key={item.title} className="bg-surface border border-border rounded-lg p-6">
                   <h3 className="font-bold text-primary text-lg">{item.title}</h3>

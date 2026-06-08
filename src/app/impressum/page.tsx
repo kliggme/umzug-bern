@@ -18,7 +18,7 @@ export default function ImpressumPage() {
           <div className="prose-content">
             <h2>Angaben gemäss Art. 3 Abs. 1 lit. s UWG</h2>
             <p>
-              <strong>{siteConfig.name}</strong><br />
+              <strong>Umzug Bern (by Tour de Bula GmbH)</strong><br />
               {siteConfig.address.street}<br />
               {siteConfig.address.zip} {siteConfig.address.city}<br />
               {siteConfig.address.country}

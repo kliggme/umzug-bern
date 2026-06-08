@@ -228,7 +228,7 @@ export default async function RegionPage({ params }: Props) {
               <div className="bg-primary rounded-lg p-6 text-white">
                 <h3 className="font-bold text-accent mb-2">Kostenlose Offerte</h3>
                 <p className="text-white/70 text-sm mb-4">
-                  Erhalten Sie innerhalb von 24 Stunden eine unverbindliche Offerte für Ihren Umzug in {region.name}.
+                  Wir nehmen innerhalb von 24 Stunden Kontakt mit Ihnen auf – für Ihren Umzug in {region.name}.
                 </p>
                 <Link
                   href="/angebot"
@@ -244,7 +244,7 @@ export default async function RegionPage({ params }: Props) {
 
       <CTA
         title={`Umzug in ${region.name}?`}
-        subtitle={`Fordern Sie jetzt Ihre kostenlose Offerte für den Umzug in ${region.name} (${region.plz}) an – unverbindlich und innerhalb von 24 Stunden.`}
+        subtitle={`Fordern Sie jetzt Ihre kostenlose Offerte für den Umzug in ${region.name} (${region.plz}) an – wir melden uns innerhalb von 24 Stunden bei Ihnen.`}
       />
     </>
   );
