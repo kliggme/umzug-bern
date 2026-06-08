@@ -13,7 +13,7 @@ export default function Footer() {
               umzug bern
             </Link>
             <p className="mt-4 text-white/70 text-sm leading-relaxed">
-              Ihr zuverlässiger Partner für Umzüge und Transporte in Bern und der ganzen Schweiz.
+              Ihr zuverlässiger Partner für Umzüge, Räumungen und Reinigungen in Bern und der ganzen Schweiz.
             </p>
           </div>
 
@@ -62,11 +62,6 @@ export default function Footer() {
               <p>{siteConfig.address.street}</p>
               <p>{siteConfig.address.zip} {siteConfig.address.city}</p>
               <p className="pt-2">
-                <a href={`tel:${siteConfig.phone}`} className="hover:text-accent transition-colors cursor-pointer">
-                  {siteConfig.phoneDisplay}
-                </a>
-              </p>
-              <p>
                 <a href={`tel:${siteConfig.phoneMobile}`} className="hover:text-accent transition-colors cursor-pointer">
                   {siteConfig.phoneMobileDisplay}
                 </a>

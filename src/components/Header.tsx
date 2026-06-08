@@ -46,19 +46,15 @@ export default function Header() {
               <span className="hidden sm:inline">{siteConfig.email}</span>
             </a>
             <span className="text-border">|</span>
-            <a href={`tel:${siteConfig.phone}`} className="flex items-center gap-1.5 text-accent hover:text-accent-hover transition-colors cursor-pointer">
-              <IconPhone />
-              <span>{siteConfig.phoneDisplay}</span>
-            </a>
-            <span className="text-border hidden sm:inline">|</span>
-            <a href={`tel:${siteConfig.phoneMobile}`} className="hidden sm:flex items-center gap-1.5 text-accent hover:text-accent-hover transition-colors cursor-pointer">
+            <a href={`tel:${siteConfig.phoneMobile}`} className="flex items-center gap-1.5 text-accent hover:text-accent-hover transition-colors cursor-pointer">
               <IconPhone />
               <span>{siteConfig.phoneMobileDisplay}</span>
             </a>
           </div>
           <div className="hidden md:flex items-center gap-6 text-xs font-semibold uppercase tracking-wider text-text">
             <Link href="/dienstleistungen/privatumzug" className="hover:text-primary transition-colors cursor-pointer">Umzüge</Link>
-            <Link href="/dienstleistungen/transport" className="hover:text-primary transition-colors cursor-pointer">Transporte</Link>
+            <Link href="/dienstleistungen/raeumung-entsorgung" className="hover:text-primary transition-colors cursor-pointer">Räumung/Entsorgungen</Link>
+            <Link href="/dienstleistungen/reinigung" className="hover:text-primary transition-colors cursor-pointer">Reinigungen</Link>
           </div>
         </div>
       </div>

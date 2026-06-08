@@ -20,9 +20,13 @@ export const images = {
       src: "/images/geschaeftsumzug.png",
       alt: "Geschäftsumzug – professionelles Team beim Beladen des Transporters",
     },
-    transport: {
-      src: "/images/transport.png",
-      alt: "Umzugswagen hinten offen – beladen mit Möbeln und Kartons",
+    "raeumung-entsorgung": {
+      src: "/images/entsorgen.png",
+      alt: "Räumung und Entsorgung – Möbel und Kartons beim Entrümpeln",
+    },
+    reinigung: {
+      src: "/images/erste-wohnung.png",
+      alt: "Professionelle Reinigung – saubere Wohnung nach dem Umzug",
     },
   },
   ratgeber: {

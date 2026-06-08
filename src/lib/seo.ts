@@ -61,16 +61,9 @@ export function createLocalBusinessSchema() {
     "@type": "MovingCompany",
     name: siteConfig.name,
     url: siteConfig.domain,
-    telephone: siteConfig.phoneDisplay,
+    telephone: siteConfig.phoneMobileDisplay,
     email: siteConfig.email,
     contactPoint: [
-      {
-        "@type": "ContactPoint",
-        telephone: siteConfig.phoneDisplay,
-        contactType: "customer service",
-        areaServed: "CH",
-        availableLanguage: "German",
-      },
       {
         "@type": "ContactPoint",
         telephone: siteConfig.phoneMobileDisplay,
@@ -161,7 +154,7 @@ export function createServiceSchema(service: {
       "@type": "MovingCompany",
       name: siteConfig.name,
       url: siteConfig.domain,
-      telephone: siteConfig.phoneDisplay,
+      telephone: siteConfig.phoneMobileDisplay,
       address: {
         "@type": "PostalAddress",
         streetAddress: siteConfig.address.street,

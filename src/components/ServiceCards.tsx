@@ -12,11 +12,11 @@ export default function ServiceCards() {
             Unsere <span className="text-accent">Dienstleistungen</span>
           </h2>
           <p className="mt-4 text-text-muted max-w-2xl mx-auto">
-            Von Privatumzügen über Geschäftsumzüge bis zu Transporten – wir bieten das komplette Spektrum.
+            Von Privatumzügen über Geschäftsumzüge bis zu Räumungen, Entsorgungen und Reinigungen – wir bieten das komplette Spektrum.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service) => {
             const image = getServiceImage(service.slug);
             return (

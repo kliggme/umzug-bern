@@ -13,9 +13,9 @@ export default function HomePage() {
   return (
     <>
       <Hero
-        title="Ihr Partner für Umzüge & Transporte in BERN"
+        title="Ihr Partner für Umzüge, Räumungen & Reinigungen in BERN"
         highlight="BERN"
-        subtitle="Professionelle Umzüge und Transporte in Bern und der ganzen Schweiz. Ihr zuverlässiger Partner für stressfreie Umzüge – mit grösster Sorgfalt und Erfahrung."
+        subtitle="Professionelle Umzüge, Räumungen und Reinigungen in Bern und der ganzen Schweiz. Ihr zuverlässiger Partner für stressfreie Umzüge – mit grösster Sorgfalt und Erfahrung."
       />
 
       {/* Trust badges */}
@@ -97,7 +97,7 @@ export default function HomePage() {
                   Jetzt online in 2 Min anfragen
                 </Link>
                 <p className="mt-4 text-center text-xs text-white/70">
-                  Oder rufen Sie uns an: <a href={`tel:${siteConfig.phone}`} className="text-accent hover:text-white transition-colors cursor-pointer">{siteConfig.phoneDisplay}</a>
+                  Oder rufen Sie uns an: <a href={`tel:${siteConfig.phoneMobile}`} className="text-accent hover:text-white transition-colors cursor-pointer">{siteConfig.phoneMobileDisplay}</a>
                 </p>
               </div>
             </div>

@@ -46,7 +46,8 @@ export default function ContactForm() {
           <select id="service" name="service" className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-shadow bg-white">
             <option value="privatumzug">Privatumzug</option>
             <option value="geschaeftsumzug">Geschäftsumzug</option>
-            <option value="transport">Transport</option>
+            <option value="raeumung-entsorgung">Räumung/Entsorgung</option>
+            <option value="reinigung">Reinigung</option>
           </select>
         </div>
       </div>

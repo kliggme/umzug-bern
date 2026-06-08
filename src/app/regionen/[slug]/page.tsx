@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props) {
 
   return createMetadata({
     title: `Umzug ${region.name} – Umzugsunternehmen ${region.plz}`,
-    description: `Professioneller Umzug in ${region.name} (${region.plz}): Privatumzug, Geschäftsumzug und Transport. Lokaler Umzugspartner aus Bern, ${region.distanceFromBern} entfernt. Kostenlose Offerte!`,
+    description: `Professioneller Umzug in ${region.name} (${region.plz}): Privatumzug, Geschäftsumzug, Räumung/Entsorgung und Reinigung. Lokaler Umzugspartner aus Bern, ${region.distanceFromBern} entfernt. Kostenlose Offerte!`,
     path: `/regionen/${region.slug}`,
     keywords: getRegionKeywords(region),
   });
@@ -59,7 +59,7 @@ export default async function RegionPage({ params }: Props) {
   const faqSchema = createFaqSchema(faqs);
   const serviceSchema = createServiceSchema({
     name: `Umzug ${region.name}`,
-    description: `Professionelle Umzugsleistungen in ${region.name} (${region.plz}): Privatumzug, Geschäftsumzug und Transport.`,
+    description: `Professionelle Umzugsleistungen in ${region.name} (${region.plz}): Privatumzug, Geschäftsumzug, Räumung/Entsorgung und Reinigung.`,
     slug: region.slug,
     path: `/regionen/${region.slug}`,
     areaServed: region.name,
@@ -68,7 +68,8 @@ export default async function RegionPage({ params }: Props) {
   const servicesList = [
     `Privatumzug in ${region.name} – Wohnungen und Häuser`,
     `Geschäftsumzug in ${region.name} – Büros und Firmen`,
-    `Transport von ${region.name} nach Bern und schweizweit`,
+    `Räumung & Entsorgung in ${region.name}`,
+    `Reinigung in ${region.name} – Umzugs- und Endreinigung`,
   ];
 
   return (
@@ -80,7 +81,7 @@ export default async function RegionPage({ params }: Props) {
       <Hero
         title={`Umzug ${region.name.toUpperCase()}`}
         highlight={region.name.toUpperCase()}
-        subtitle={`Professionelle Umzüge in ${region.name} (${region.plz}) – Privatumzug, Geschäftsumzug und Transport. Ihr lokaler Umzugspartner mit ${region.distanceFromBern} Entfernung zu Bern.`}
+        subtitle={`Professionelle Umzüge in ${region.name} (${region.plz}) – Privatumzug, Geschäftsumzug, Räumung/Entsorgung und Reinigung. Ihr lokaler Umzugspartner mit ${region.distanceFromBern} Entfernung zu Bern.`}
         compact
         image={region.slug === "bern" ? images.bern : images.hero}
       />

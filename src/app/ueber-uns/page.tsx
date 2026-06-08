@@ -47,8 +47,8 @@ export default function UeberUnsPage() {
             <div className="space-y-6">
               <div className="relative h-56 rounded-lg overflow-hidden border border-border">
                 <Image
-                  src={getServiceImage("transport").src}
-                  alt={getServiceImage("transport").alt}
+                  src={getServiceImage("raeumung-entsorgung").src}
+                  alt={getServiceImage("raeumung-entsorgung").alt}
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"

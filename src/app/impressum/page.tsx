@@ -25,7 +25,7 @@ export default function ImpressumPage() {
             </p>
             <h3>Kontakt</h3>
             <p>
-              Telefon: {siteConfig.phoneDisplay}<br />
+              {siteConfig.contactPerson}<br />
               Mobil: {siteConfig.phoneMobileDisplay}<br />
               E-Mail: {siteConfig.email}
             </p>

@@ -39,11 +39,6 @@ export default function KontaktPage() {
                   <p>{siteConfig.address.street}</p>
                   <p>{siteConfig.address.zip} {siteConfig.address.city}</p>
                   <p>
-                    <a href={`tel:${siteConfig.phone}`} className="hover:text-accent transition-colors cursor-pointer">
-                      Tel: {siteConfig.phoneDisplay}
-                    </a>
-                  </p>
-                  <p>
                     <a href={`tel:${siteConfig.phoneMobile}`} className="hover:text-accent transition-colors cursor-pointer">
                       Mobil: {siteConfig.phoneMobileDisplay}
                     </a>

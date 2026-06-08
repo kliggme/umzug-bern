@@ -260,132 +260,258 @@ Wir sind kein anonymes Franchise, sondern ein etabliertes Bernese Umzugsunterneh
     icon: "building",
   },
   {
-    slug: "transport",
-    title: "Transport Bern",
-    shortTitle: "Transport",
+    slug: "raeumung-entsorgung",
+    title: "Räumung & Entsorgung Bern",
+    shortTitle: "Räumung/Entsorgung",
     description:
-      "Termingenaue Transporte in der ganzen Schweiz – von Bern aus zuverlässig von Tür zu Tür für Möbel, Geräte und Spezialgüter.",
+      "Professionelle Wohnungsräumung, Entrümpelung und fachgerechte Entsorgung in Bern und der ganzen Region – schnell, diskret und umweltbewusst.",
     longDescription:
-      "Neben klassischen Umzügen bieten wir professionelle Transportdienstleistungen für Möbel, Geräte und Spezialgüter. Durch optimierte Tourenplanung sparen wir Zeit und Kosten.",
+      "Ob Haushaltsauflösung, Kellerentrümpelung oder Büroräumung – wir räumen gründlich und entsorgen fachgerecht. Inklusive Abtransport und sortenreiner Entsorgung.",
     features: [
-      "Schweizweite Lieferungen",
-      "Spezialtransporte für empfindliche Güter",
-      "Express- und Same-Day-Service",
-      "Tracking und Terminbestätigung",
-      "Hebebühne und Tragetechnik",
+      "Komplette Haushaltsauflösungen",
+      "Keller-, Dachboden- und Garagenräumung",
+      "Büro- und Gewerberäumung",
+      "Fachgerechte Entsorgung und Recycling",
+      "Besenreine Übergabe auf Wunsch",
     ],
     highlights: [
-      "Möbeltransport",
-      "Einzelstücke",
-      "Express",
-      "Spezialgüter",
-      "Schweizweit",
+      "Haushaltsauflösung",
+      "Entrümpelung",
+      "Sperrgutentsorgung",
+      "Büroräumung",
+      "Recycling",
     ],
     keywords: [
-      "transport bern",
-      "möbeltransport bern",
-      "transportdienst bern",
-      "möbellieferung bern",
-      "transport schweiz",
-      "einzeltransport bern",
+      "räumung bern",
+      "entsorgung bern",
+      "entrümpelung bern",
+      "haushaltsauflösung bern",
+      "wohnungsräumung bern",
+      "sperrgutentsorgung bern",
     ],
-    content: `Nicht jeder Transport ist ein kompletter Umzug. Manchmal brauchen Sie nur ein Sofa von tutti.ch abzuholen, ein Klavier zu transportieren, Möbel aus dem Möbelhaus nach Hause zu liefern oder Paletten schweizweit zu versenden. **Umzug Bern** bietet professionelle Transportdienstleistungen von Tür zu Tür – termingerecht, versichert und mit dem richtigen Equipment für jedes Gut.
+    content: `Manchmal steht nicht ein Umzug an, sondern eine **Räumung oder Entsorgung in Bern** – nach einem Nachlass, bei einer Wohnungsauflösung, vor einer Renovation oder wenn Keller, Dachboden und Garage endlich entrümpelt werden sollen. **Umzug Bern** übernimmt die komplette Räumung: Wir sortieren, transportieren ab und entsorgen fachgerecht – diskret, effizient und umweltbewusst.
 
-## Was umfasst unser Transport-Service?
+## Was umfasst unsere Räumung & Entsorgung?
 
-Unser Transport-Service in Bern deckt alles ab, was zu schwer, zu sperrig oder zu empfindlich für den Privattransport ist. Wir holen ab, transportieren sicher und liefern am Zielort ab – in der Wohnung, im Büro oder im Lager. Kein Stress mit Mietwagen, keine Kratzer an der Wand, kein Rätselraten ob das Sofa durch die Tür passt.
+Unser Räumungsservice in Bern deckt alle Situationen ab, in denen Räume geleert und Gegenstände entsorgt werden müssen. Wir arbeiten strukturiert, respektvoll und mit dem nötigen Feingefühl – besonders bei sensiblen Aufträgen wie Nachlassräumungen.
 
-Typische Transportaufträge:
-- Möbelkauf-Abholung (IKEA, Pfister, lokale Möbelhäuser)
-- Einzelstücke: Sofa, Schrank, Bett, Waschmaschine
-- Klavier- und Flügeltransport
-- Antiquitäten und Kunstgegenstände
-- Büroausstattung und Maschinen
-- Haushaltsauflösungen und Sperrgutentsorgung
-- Schweizweite Lieferungen und Express-Sendungen
+Typische Räumungsaufträge:
+- Haushaltsauflösungen und Wohnungsräumungen
+- Nachlass- und Erbschaftsräumungen
+- Keller-, Dachboden- und Garagenentrümpelungen
+- Büro- und Gewerberäumungen
+- Sperrgut- und Möbelentsorgung
+- Entrümpelung vor Renovation oder Verkauf
 
-## Unsere Transport-Leistungen im Detail
+## Unsere Leistungen im Detail
 
-**Tür-zu-Tür-Service:** Wir holen an der angegebenen Adresse ab und liefern an der Zieladresse – inklusive Tragen bis zum gewünschten Raum, nicht nur bis zur Haustür.
+**Komplette Räumung:** Wir leeren Wohnungen, Häuser, Büros und Lagerräume vollständig – inklusive Möbel, Kartons, Geräte und Sperrgut.
 
-**Spezialtransporte:** Empfindliche Güter wie Klaviere, Glasvitrinen, Kunstwerke oder medizinische Geräte werden mit Spezialverpackung und geschultem Personal transportiert. Hebebühne und Tragegurte sind bei uns Standard.
+**Sortierung und Wiederverwertung:** Brauchbare Gegenstände geben wir an Bedürftige oder Secondhand-Läden weiter. Restmaterial wird sortenrein getrennt und fachgerecht entsorgt.
 
-**Express und Same-Day:** Dringende Transporte? Nach Verfügbarkeit bieten wir Express-Lieferungen innerhalb von Bern und der Region sowie Same-Day-Transporte schweizweit an.
+**Fachgerechte Entsorgung:** Elektrogeräte, Sonderabfälle und Sperrgut entsorgen wir gemäss den geltenden Vorschriften – inklusive Entsorgungsnachweis auf Wunsch.
 
-**Versicherung und Sicherheit:** Alle Transporte sind versichert. Ladungssicherung, Schutzdecken und professionelle Verpackung gehören zum Standard – Ihre Güter kommen unbeschädigt an.
+**Besenreine Übergabe:** Auf Wunsch übergeben wir die geräumten Räume besenrein an Vermieter, Erben oder Käufer – ideal bei Wohnungsübergaben.
 
-**Tracking und Kommunikation:** Sie erhalten eine Terminbestätigung mit Zeitfenster. Unser Fahrer meldet sich vor Ankunft – keine stundenlangen Wartezeiten ohne Information.
+**Diskretion und Sorgfalt:** Bei Nachlassräumungen gehen wir respektvoll mit persönlichen Gegenständen um und stimmen wertvolle oder sentimentale Stücke vorab mit Ihnen ab.
 
-## Preisübersicht Transport Bern
+## Preisübersicht Räumung Bern
 
-| Transportart | Geschätzte Kosten |
+| Räumungsart | Geschätzte Kosten |
 |---|---|
-| Einzelmöbel innerhalb Bern | CHF 120 – 300 |
-| Möbelset (3–5 Stück) innerhalb Bern | CHF 350 – 700 |
-| Klaviertransport innerhalb Region | CHF 400 – 800 |
-| Transport Bern – Zürich/Basel | CHF 450 – 900 |
-| Express Same-Day (nach Aufwand) | ab CHF 250 |
+| Keller oder Dachboden (klein) | CHF 300 – 600 |
+| Einzelzimmer-Entrümpelung | CHF 400 – 800 |
+| 2.5–3.5-Zimmer-Wohnung | CHF 800 – 1'800 |
+| Komplette Haushaltsauflösung | CHF 1'500 – 4'000 |
+| Büro- oder Gewerberäumung | nach Besichtigung |
 
-Die genauen Kosten hängen von Gewicht, Volumen, Stockwerk, Lift und Distanz ab. Für Einzeltransporte erstellen wir schnelle, unkomplizierte Offerten – oft noch am selben Tag.
+Die genauen Kosten hängen von Volumen, Zugang, Stockwerk, Lift und Entsorgungsaufwand ab. Nach einer kostenlosen Besichtigung erstellen wir eine transparente Offerte – oft innerhalb von 24 Stunden.
 
-## Wann lohnt sich ein professioneller Transport?
+## Wann lohnt sich eine professionelle Räumung?
 
-- **Möbelkauf:** Das neue Regal passt nicht in den Kombi, und die Parkgarage hat enge Kurven.
-- **Online-Käufe:** Sie haben etwas auf Ricardo oder tutti.ch gefunden – wir holen ab und liefern.
-- **Renovation:** Möbel müssen kurzfristig ausgelagert oder in eine andere Wohnung gebracht werden.
-- **Haushaltsauflösung:** Nachlass, Wohnungsauflösung oder Entrümpelung – wir transportieren und entsorgen.
-- **Firmenlogistik:** Büromöbel, IT-Geräte oder Maschinenteile zwischen Standorten.
+- **Nachlass:** Sie müssen eine Wohnung nach einem Todesfall räumen und haben keine Kapazität dafür.
+- **Wohnungsauflösung:** Sie ziehen ins Ausland oder ins Pflegeheim und lassen eine Wohnung zurück.
+- **Verkauf:** Die Immobilie soll besenrein übergeben werden.
+- **Renovation:** Keller, Dachboden oder Garage blockieren wertvollen Stauraum.
+- **Gewerbe:** Büro, Praxis oder Lager muss schnell und termingerecht geräumt werden.
 
-Ein professioneller Transport spart Zeit, vermeidet Schäden an Möbeln und Gebäuden und ist oft günstiger als ein Mietwagen plus zwei helfende Freunde plus Muskelkater.
+Eine professionelle Räumung spart Zeit, vermeidet Fehlentsorgungen und gibt Ihnen die Sicherheit, dass alles fachgerecht und dokumentiert abgewickelt wird.
 
-## Einsatzgebiet: Bern, Region und Schweiz
+## Einsatzgebiet: Bern, Region und Umgebung
 
-Unser Standort in Bern (3027) ist ideal für Transporte im Kanton Bern: Köniz, Ostermundigen, Biel, Thun, Burgdorf und das gesamte Mittelland. Gleichzeitig fahren wir regelmässig schweizweit – Zürich, Basel, Luzern, Genf und alle Kantone. Durch optimierte Tourenplanung halten wir auch Ferntransporte wirtschaftlich.
+Unser Standort in Bern (3027) ist ideal für Räumungen im Kanton Bern: Köniz, Ostermundigen, Biel, Thun, Burgdorf und das gesamte Mittelland. Wir sind schnell vor Ort und kennen die lokalen Entsorgungswege.
 
-## Equipment und Fahrzeugpark
+## Ablauf Ihrer Räumung
 
-- Transporter und Umzugswagen in verschiedenen Grössen
-- Hebebühne für schwere Güter und höhere Stockwerke
-- Tragegurte, Möbelroller und Schutzdecken
-- Spezialverpackung für empfindliche Güter
-- Geschultes, versichertes Transportpersonal
+1. **Anfrage:** Sie schildern uns den Umfang – telefonisch, per E-Mail oder über unser Formular.
+2. **Besichtigung:** Kostenlose Besichtigung vor Ort – wir erfassen Volumen, Zugang und besondere Anforderungen.
+3. **Offerte:** Transparente, unverbindliche Offerte innerhalb von 24 Stunden.
+4. **Räumung:** Unser Team räumt termingerecht, sortiert brauchbare Gegenstände und transportiert alles ab.
+5. **Entsorgung:** Fachgerechte Entsorgung und besenreine Übergabe auf Wunsch.
 
-## Warum Umzug Bern für Ihre Transporte?
+## Warum Umzug Bern für Ihre Räumung?
 
-Wir sind nicht nur Umzugsfirma, sondern auch Ihr lokaler Transportpartner in Bern. Kurze Wege, schnelle Reaktionszeiten, faire Preise und ein Team, das weiss wie man ein Klavier die Treppe hinunterträgt ohne Kratzer an Geländer und Flügel. Egal ob einzelnes Bürostuhl oder komplette Haushaltsauflösung – wir liefern zuverlässig.`,
+Wir kombinieren Umzugsexpertise mit professioneller Entsorgung – ein Team, ein Ansprechpartner, keine Koordination mit mehreren Dienstleistern. Kurze Wege aus Bern, faire Preise und ein erfahrenes Team, das auch in engen Treppenhäusern und Altbauwohnungen effizient arbeitet.`,
     faqs: [
       {
-        question: "Können Sie ein einzelnes Möbelstück transportieren?",
+        question: "Was kostet eine Haushaltsauflösung in Bern?",
         answer:
-          "Ja, Einzeltransporte sind einer unserer häufigsten Aufträge. Ob Sofa, Schrank, Waschmaschine oder Bett – wir holen ab und liefern an. Kein Mindestvolumen nötig.",
+          "Eine komplette Haushaltsauflösung kostet je nach Wohnungsgrösse und Volumen typischerweise CHF 1'500–4'000. Nach einer kostenlosen Besichtigung erhalten Sie eine genaue, unverbindliche Offerte.",
       },
       {
-        question: "Bieten Sie Klaviertransport an?",
+        question: "Entsorgen Sie auch Elektrogeräte und Sonderabfälle?",
         answer:
-          "Ja, Klavier- und Flügeltransporte führen wir mit Spezialausrüstung und erfahrenem Personal durch. Wir klären vorab Zugang, Stockwerk und Gewicht und planen das passende Team.",
+          "Ja, wir entsorgen Elektrogeräte, Sperrgut und Sonderabfälle fachgerecht gemäss den geltenden Vorschriften. Auf Wunsch stellen wir Entsorgungsnachweise aus.",
       },
       {
-        question: "Wie schnell kann ein Transport gebucht werden?",
+        question: "Wie schnell kann eine Räumung durchgeführt werden?",
         answer:
-          "Einfache Transporte innerhalb Berns sind oft innerhalb von 24–48 Stunden möglich. Express- und Same-Day-Transporte nach Verfügbarkeit. Kontaktieren Sie uns telefonisch für dringende Anfragen.",
+          "Kleinere Räumungen sind oft innerhalb von 2–5 Werktagen möglich. Bei dringenden Terminen – z.B. vor einer Wohnungsübergabe – kontaktieren Sie uns telefonisch.",
       },
       {
-        question: "Transportieren Sie auch schweizweit?",
+        question: "Übernehmen Sie auch Nachlassräumungen?",
         answer:
-          "Ja, wir fahren in alle Kantone der Schweiz. Bern–Zürich, Bern–Basel oder Bern–Genf sind regelmässige Strecken. Ferntransporte planen wir mit fixem Zeitfenster und transparenter Offerte.",
+          "Ja, Nachlass- und Erbschaftsräumungen führen wir diskret und respektvoll durch. Wertvolle oder sentimentale Gegenstände stimmen wir vorab mit Ihnen ab.",
       },
       {
-        question: "Was kostet ein Möbeltransport in Bern?",
+        question: "Räumen Sie auch Keller, Dachboden und Garage?",
         answer:
-          "Ein einzelnes Möbelstück innerhalb Berns kostet typischerweise CHF 120–300, abhängig von Grösse, Gewicht und Stockwerk. Grössere Aufträge oder Fernfahrten werden individuell kalkuliert.",
+          "Ja, Keller-, Dachboden- und Garagenentrümpelungen gehören zu unseren häufigsten Aufträgen. Wir transportieren alles ab und entsorgen fachgerecht.",
       },
       {
-        question: "Ist der Transport versichert?",
+        question: "Ist eine besenreine Übergabe möglich?",
         answer:
-          "Ja, alle Transporte sind durch unsere Transportversicherung abgedeckt. Schäden während des Transports sind versichert. Wir behandeln Ihre Güter mit professionellem Schutzmaterial.",
+          "Ja, auf Wunsch übergeben wir die geräumten Räume besenrein – ideal bei Wohnungsübergaben an Vermieter oder Käufer.",
       },
     ],
     icon: "truck",
+  },
+  {
+    slug: "reinigung",
+    title: "Reinigung Bern",
+    shortTitle: "Reinigung",
+    description:
+      "Professionelle Umzugsreinigung, Endreinigung und Unterhaltsreinigung in Bern – gründlich, termingerecht und mit Abnahmegarantie.",
+    longDescription:
+      "Ob Wohnungsübergabe, Büroreinigung oder Umzugsreinigung mit Abnahmegarantie – unser Reinigungsteam sorgt für blitzsaubere Räume, wenn es darauf ankommt.",
+    features: [
+      "Umzugs- und Endreinigung mit Abnahmegarantie",
+      "Wohnungs- und Haushaltsreinigung",
+      "Büro- und Gewerbereinigung",
+      "Fenster- und Küchenreinigung",
+      "Kombination mit Umzug und Räumung möglich",
+    ],
+    highlights: [
+      "Abnahmegarantie",
+      "Umzugsreinigung",
+      "Endreinigung",
+      "Büroreinigung",
+      "Gründlich",
+    ],
+    keywords: [
+      "reinigung bern",
+      "umzugsreinigung bern",
+      "endreinigung bern",
+      "wohnungsreinigung bern",
+      "abnahmegarantie reinigung bern",
+      "büroreinigung bern",
+    ],
+    content: `Nach dem Umzug oder vor der Wohnungsübergabe muss es **blitzsauber** sein – und genau dafür bietet **Umzug Bern** professionelle Reinigungsleistungen in Bern und der ganzen Region. Ob Umzugsreinigung mit Abnahmegarantie, Endreinigung bei Auszug oder regelmässige Unterhaltsreinigung: Unser erfahrenes Team reinigt gründlich, termingerecht und zu fairen Preisen.
+
+## Was umfasst unsere Reinigung?
+
+Unser Reinigungsservice in Bern deckt alle Situationen ab, in denen Räume professionell gereinigt werden müssen – besonders im Zusammenhang mit Umzügen, Wohnungsübergaben und Geschäftsräumen.
+
+Typische Reinigungsaufträge:
+- Umzugsreinigung mit Abnahmegarantie
+- Endreinigung bei Wohnungsauszug
+- Reinigung nach Renovation oder Räumung
+- Büro- und Gewerbereinigung
+- Fenster- und Storenreinigung
+- Küchen- und Badreinigung inklusive Entkalkung
+
+## Unsere Reinigungsleistungen im Detail
+
+**Umzugsreinigung mit Abnahmegarantie:** Wir reinigen Ihre alte Wohnung so gründlich, dass der Vermieter oder die Verwaltung die Abnahme problemlos durchführt. Bei Beanstandungen kommen wir kostenlos nach – das ist unsere Abnahmegarantie.
+
+**Endreinigung:** Alle Räume werden von oben nach unten gereinigt – Böden, Wände, Fenster, Küche, Bad, Schränke innen und aussen, Lichtschalter, Steckdosen und Heizkörper.
+
+**Reinigung nach Räumung:** Nach einer Haushaltsauflösung oder Entrümpelung übernehmen wir die abschliessende Reinigung – ideal in Kombination mit unserer Räumungsleistung aus einer Hand.
+
+**Büroreinigung:** Büros, Praxen und Gewerberäume reinigen wir termingerecht – auch ausserhalb der Geschäftszeiten, damit Ihr Betrieb nicht gestört wird.
+
+**Kombiniert mit Umzug:** Umzug, Räumung und Reinigung aus einer Hand – ein Ansprechpartner, ein Termin, weniger Koordinationsaufwand für Sie.
+
+## Preisübersicht Reinigung Bern
+
+| Reinigungsart | Geschätzte Kosten |
+|---|---|
+| 1.5–2.5-Zimmer Endreinigung | CHF 450 – 850 |
+| 3.5–4.5-Zimmer Endreinigung | CHF 650 – 1'150 |
+| 5.5+ Zimmer / Einfamilienhaus | CHF 950 – 1'750 |
+| Büroreinigung (nach m²) | ab CHF 4.50/m² |
+| Fensterreinigung (Zuschlag) | ab CHF 110 |
+
+Die genauen Kosten hängen von Wohnungsgrösse, Zustand, Stockwerk und Umfang ab. Nach einer Besichtigung erstellen wir eine transparente Offerte – oft innerhalb von 24 Stunden.
+
+## Wann lohnt sich eine professionelle Reinigung?
+
+- **Wohnungsübergabe:** Der Vermieter erwartet eine besenreine, gründlich gereinigte Wohnung.
+- **Nach dem Umzug:** Sie haben genug mit dem Umzug zu tun – die Endreinigung übernehmen wir.
+- **Nach Renovation:** Baustaub und Schmutz nach Umbau oder Sanierung professionell entfernen.
+- **Nach Räumung:** Geräumte Wohnungen oder Büros für die Übergabe vorbereiten.
+- **Gewerbe:** Büros und Praxen regelmässig oder einmalig reinigen lassen.
+
+Eine professionelle Reinigung spart Zeit, vermeidet Streit bei der Wohnungsabnahme und gibt Ihnen die Sicherheit, dass nichts übersehen wird.
+
+## Einsatzgebiet: Bern und Region
+
+Unser Standort in Bern (3027) ist ideal für Reinigungen im Kanton Bern: Köniz, Ostermundigen, Biel, Thun, Burgdorf und das gesamte Mittelland. Kurze Wege bedeuten flexible Termine – auch kurzfristig vor der Wohnungsübergabe.
+
+## Ablauf Ihrer Reinigung
+
+1. **Anfrage:** Sie schildern uns Wohnungsgrösse, Zustand und Wunschtermin.
+2. **Besichtigung:** Bei Bedarf schauen wir uns die Räume vor Ort an.
+3. **Offerte:** Transparente, unverbindliche Offerte innerhalb von 24 Stunden.
+4. **Reinigung:** Unser Team reinigt gründlich nach Checkliste – termingerecht vor Ihrer Übergabe.
+5. **Abnahme:** Mit Abnahmegarantie – bei Beanstandungen kommen wir kostenlos nach.
+
+## Warum Umzug Bern für Ihre Reinigung?
+
+Wir kennen die Anforderungen von Vermietern und Verwaltungen in Bern. Unser Team arbeitet mit bewährten Checklisten, umweltfreundlichen Reinigungsmitteln und dem Anspruch, dass Ihre Wohnungsabnahme reibungslos verläuft. Kombinieren Sie Reinigung mit Umzug oder Räumung – alles aus einer Hand.`,
+    faqs: [
+      {
+        question: "Was bedeutet Abnahmegarantie bei der Umzugsreinigung?",
+        answer:
+          "Mit unserer Abnahmegarantie garantieren wir, dass Ihre Wohnung den Anforderungen des Vermieters entspricht. Sollte bei der Abnahme etwas beanstandet werden, kommen wir kostenlos zur Nachreinigung.",
+      },
+      {
+        question: "Was kostet eine Endreinigung in Bern?",
+        answer:
+          "Eine Endreinigung für eine 3.5-Zimmer-Wohnung kostet typischerweise CHF 650–1'150, abhängig vom Zustand und Umfang. Nach Besichtigung erhalten Sie eine genaue Offerte.",
+      },
+      {
+        question: "Können Reinigung und Umzug kombiniert werden?",
+        answer:
+          "Ja, Umzug, Räumung und Reinigung bieten wir aus einer Hand an. So sparen Sie Koordinationsaufwand und haben einen festen Ansprechpartner für alles.",
+      },
+      {
+        question: "Reinigen Sie auch Küche und Bad gründlich?",
+        answer:
+          "Ja, Küche und Bad gehören zu unserer Endreinigung dazu – inklusive Backofen, Kühlschrank, Entkalkung, Fliesen und Sanitäranlagen.",
+      },
+      {
+        question: "Wie kurzfristig ist eine Reinigung möglich?",
+        answer:
+          "Bei freien Kapazitäten sind Reinigungen oft innerhalb von 2–5 Werktagen möglich. Für dringende Termine vor der Wohnungsübergabe kontaktieren Sie uns telefonisch.",
+      },
+      {
+        question: "Reinigen Sie auch Büros und Gewerberäume?",
+        answer:
+          "Ja, wir reinigen Büros, Praxen und Gewerberäume – einmalig oder regelmässig. Termine planen wir auch ausserhalb der Geschäftszeiten.",
+      },
+    ],
+    icon: "home",
   },
 ];
 

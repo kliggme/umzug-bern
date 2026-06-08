@@ -5,11 +5,11 @@ import ServiceCards from "@/components/ServiceCards";
 import CTA from "@/components/CTA";
 
 export const metadata = createMetadata({
-  title: "Dienstleistungen – Umzug & Transport Bern",
+  title: "Dienstleistungen – Umzug, Räumung & Reinigung Bern",
   description:
-    "Unsere Umzugsleistungen in Bern: Privatumzug, Geschäftsumzug und Transport. Alles aus einer Hand – professionell und zuverlässig.",
+    "Unsere Leistungen in Bern: Privatumzug, Geschäftsumzug, Räumung/Entsorgung und Reinigung. Alles aus einer Hand – professionell und zuverlässig.",
   path: "/dienstleistungen",
-  keywords: ["umzug dienstleistungen bern", "transport bern"],
+  keywords: ["umzug dienstleistungen bern", "räumung bern", "entsorgung bern", "reinigung bern"],
 });
 
 export default function DienstleistungenPage() {
@@ -18,7 +18,7 @@ export default function DienstleistungenPage() {
       <Hero
         title="Unsere Dienstleistungen"
         highlight="Dienstleistungen"
-        subtitle="Vom Privatumzug über den Geschäftsumzug bis zum Transport – wir bieten das komplette Spektrum für Ihren Umzug in Bern."
+        subtitle="Vom Privatumzug über den Geschäftsumzug bis zur Räumung, Entsorgung und Reinigung – wir bieten das komplette Spektrum in Bern."
         showCta={false}
         compact
       />

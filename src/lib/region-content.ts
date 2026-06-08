@@ -187,7 +187,7 @@ export function getRegionContent(region: Region): string {
   const intro = getCategoryIntro(region.category, region);
   const specifics = getCategorySpecifics(region.category, region);
 
-  return `Sie planen einen **Umzug in ${name}** (${plz}, Kanton ${kanton})? Umzug Bern ist Ihr lokales Umzugsunternehmen mit Sitz in Bern und langjähriger Erfahrung im gesamten Kanton Bern und darüber hinaus. Ob Privatumzug, Geschäftsumzug oder Einzeltransport – wir begleiten Sie von der Planung bis zum Einzug.
+  return `Sie planen einen **Umzug in ${name}** (${plz}, Kanton ${kanton})? Umzug Bern ist Ihr lokales Umzugsunternehmen mit Sitz in Bern und langjähriger Erfahrung im gesamten Kanton Bern und darüber hinaus. Ob Privatumzug, Geschäftsumzug, Räumung/Entsorgung oder Reinigung – wir begleiten Sie von der Planung bis zum Einzug.
 
 ${intro}
 
@@ -197,10 +197,10 @@ Als vollständiger Umzugsdienstleister bieten wir in ${name} das gesamte Spektru
 
 - **Privatumzug in ${name}** – Wohnungen, Reihenhäuser und Einfamilienhäuser in ${areas}
 - **Geschäftsumzug in ${name}** – Büros, KMU, Praxen und Verwaltungen
-- **Transport und Einzelstücke** – Möbeltransport, Abholung und Lieferung in ${name}
+- **Räumung & Entsorgung in ${name}** – Haushaltsauflösungen, Entrümpelung und fachgerechte Entsorgung
+- **Reinigung in ${name}** – Umzugsreinigung, Endreinigung und Abnahmegarantie
 - **Verpackungsservice** – Professionelles Einpacken und Schutz empfindlicher Güter
 - **Möbelmontage** – Demontage am alten und Aufbau am neuen Standort
-- **Entsorgung** – Mitnahme und fachgerechte Entsorgung nicht mehr benötigter Gegenstände
 
 ## Quartiere und Einsatzgebiete in ${name}
 
@@ -236,7 +236,7 @@ ${specifics}
 - **Erfahrung in ${name}** und der gesamten Region (${distanceFromBern} von Bern)
 - **Transparente Preise** – kostenlose Besichtigung, Offerte innerhalb 24 Stunden
 - **Versicherung inklusive** – Ihr Inventar ist während des Transports abgesichert
-- **Flexibel** – Privatumzug, Geschäftsumzug, Wochenendtermine und Express-Transporte
+- **Flexibel** – Privatumzug, Geschäftsumzug, Räumungen, Reinigungen und Wochenendtermine
 - **Persönliche Betreuung** – feste Ansprechpartner von der Planung bis zum Einzug
 
 Planen Sie Ihren Umzug in ${name}? Fordern Sie jetzt Ihre kostenlose Offerte an – unverbindlich und innerhalb von 24 Stunden.`;

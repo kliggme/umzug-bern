@@ -27,7 +27,7 @@ export default function CTA({
             Angebot anfordern
           </Link>
           <a
-            href={`tel:${siteConfig.phone}`}
+            href={`tel:${siteConfig.phoneMobile}`}
             className="inline-flex items-center justify-center border-2 border-white/30 hover:border-accent text-white hover:text-accent font-semibold px-8 py-4 rounded text-sm uppercase tracking-wider transition-colors cursor-pointer"
           >
             Jetzt anrufen
