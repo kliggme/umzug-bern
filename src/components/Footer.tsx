@@ -76,7 +76,21 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/50">
-          <p>&copy; {new Date().getFullYear()} {siteConfig.name}. Alle Rechte vorbehalten.</p>
+          <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-3 text-center sm:text-left">
+            <p>&copy; {new Date().getFullYear()} {siteConfig.name}. Alle Rechte vorbehalten.</p>
+            <span className="hidden sm:inline text-white/30">|</span>
+            <p>
+              Website by{" "}
+              <a
+                href="https://heydigital.ch"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-accent transition-colors cursor-pointer"
+              >
+                heydigital.ch
+              </a>
+            </p>
+          </div>
           <div className="flex gap-6">
             <Link href="/impressum" className="hover:text-accent transition-colors cursor-pointer">Impressum</Link>
             <Link href="/datenschutz" className="hover:text-accent transition-colors cursor-pointer">Datenschutz</Link>

@@ -35,6 +35,18 @@ export default function ImpressumPage() {
               Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, die aus dem Zugriff oder der Nutzung bzw.
               Nichtnutzung der veröffentlichten Informationen entstanden sind, werden ausgeschlossen.
             </p>
+            <h3>Webdesign & Umsetzung</h3>
+            <p>
+              Website by{" "}
+              <a
+                href="https://heydigital.ch"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-primary transition-colors"
+              >
+                heydigital.ch
+              </a>
+            </p>
           </div>
         </div>
       </section>

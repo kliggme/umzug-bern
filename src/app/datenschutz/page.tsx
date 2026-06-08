@@ -38,7 +38,13 @@ export default function DatenschutzPage() {
               Ihre Daten werden ausschliesslich zur Bearbeitung Ihrer Anfrage, zur Erstellung von Offerten und zur Durchführung
               unserer Dienstleistungen verwendet.
             </p>
-            <h2>5. Ihre Rechte</h2>
+            <h2>5. Cookies</h2>
+            <p>
+              Unsere Website verwendet technisch notwendige Cookies, die für den Betrieb der Seite erforderlich sind.
+              Darüber hinaus können – sofern Sie zustimmen – Cookies für anonyme Nutzungsstatistiken eingesetzt werden.
+              Ihre Einwilligung können Sie jederzeit widerrufen, indem Sie die gespeicherten Cookies in Ihrem Browser löschen.
+            </p>
+            <h2>6. Ihre Rechte</h2>
             <p>
               Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Bearbeitung Ihrer Personendaten.
               Kontaktieren Sie uns unter {siteConfig.email} für Anfragen.
