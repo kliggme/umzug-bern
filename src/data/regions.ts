@@ -1,3 +1,12 @@
+export type RegionCategory =
+  | "capital"
+  | "suburban"
+  | "oberland"
+  | "seeland"
+  | "emmental"
+  | "jura"
+  | "mittelland";
+
 export type Region = {
   slug: string;
   name: string;
@@ -7,6 +16,7 @@ export type Region = {
   highlights: string[];
   distanceFromBern: string;
   population?: string;
+  category: RegionCategory;
 };
 
 export const regions: Region[] = [
@@ -20,6 +30,7 @@ export const regions: Region[] = [
     highlights: ["Altstadt", "Mattenhof", "Länggasse", "Kirchenfeld", "Bümpliz"],
     distanceFromBern: "0 km",
     population: "133'000",
+    category: "capital",
   },
   {
     slug: "koeniz",
@@ -31,6 +42,7 @@ export const regions: Region[] = [
     highlights: ["Liebefeld", "Spiegel", "Niederwangen", "Schliern"],
     distanceFromBern: "5 km",
     population: "42'000",
+    category: "suburban",
   },
   {
     slug: "ostermundigen",
@@ -42,6 +54,7 @@ export const regions: Region[] = [
     highlights: ["Zollhaus", "Deisswil", "Vechigenstrasse"],
     distanceFromBern: "4 km",
     population: "17'000",
+    category: "suburban",
   },
   {
     slug: "biel-bienne",
@@ -53,6 +66,7 @@ export const regions: Region[] = [
     highlights: ["Altstadt", "Nidau", "Vingelz", "Bözingen"],
     distanceFromBern: "28 km",
     population: "55'000",
+    category: "seeland",
   },
   {
     slug: "thun",
@@ -64,6 +78,7 @@ export const regions: Region[] = [
     highlights: ["Altstadt", "Dürrenast", "Gwatt", "Steffisburg"],
     distanceFromBern: "28 km",
     population: "44'000",
+    category: "oberland",
   },
   {
     slug: "burgdorf",
@@ -75,6 +90,7 @@ export const regions: Region[] = [
     highlights: ["Altstadt", "Heimiswil", "Schönaustadt"],
     distanceFromBern: "22 km",
     population: "16'000",
+    category: "emmental",
   },
   {
     slug: "langenthal",
@@ -86,6 +102,7 @@ export const regions: Region[] = [
     highlights: ["Altstadt", "Schönenwerd", "Aarwangen"],
     distanceFromBern: "42 km",
     population: "16'000",
+    category: "emmental",
   },
   {
     slug: "interlaken",
@@ -97,6 +114,7 @@ export const regions: Region[] = [
     highlights: ["Unterseen", "Matten", "Wilderswil"],
     distanceFromBern: "57 km",
     population: "5'600",
+    category: "oberland",
   },
   {
     slug: "spiez",
@@ -108,6 +126,7 @@ export const regions: Region[] = [
     highlights: ["Faulensee", "Einigen", "Hondrich"],
     distanceFromBern: "35 km",
     population: "13'000",
+    category: "oberland",
   },
   {
     slug: "muri-bei-bern",
@@ -119,6 +138,7 @@ export const regions: Region[] = [
     highlights: ["Gümligen", "Wabern", "Allmendingen"],
     distanceFromBern: "6 km",
     population: "13'000",
+    category: "suburban",
   },
   {
     slug: "belp",
@@ -130,6 +150,7 @@ export const regions: Region[] = [
     highlights: ["Kehrsatz", "Toffen", "Gürbetal"],
     distanceFromBern: "10 km",
     population: "12'000",
+    category: "suburban",
   },
   {
     slug: "worb",
@@ -141,6 +162,7 @@ export const regions: Region[] = [
     highlights: ["Enggistein", "Trimstein", "Worb Dorf"],
     distanceFromBern: "8 km",
     population: "12'000",
+    category: "suburban",
   },
   {
     slug: "zollikofen",
@@ -152,6 +174,7 @@ export const regions: Region[] = [
     highlights: ["Zollikofen Dorf", "Itzigen", "Mittellandstrasse"],
     distanceFromBern: "5 km",
     population: "10'000",
+    category: "suburban",
   },
   {
     slug: "lyss",
@@ -163,6 +186,7 @@ export const regions: Region[] = [
     highlights: ["Busswil", "Herrenschwanden", "Seeland"],
     distanceFromBern: "20 km",
     population: "15'000",
+    category: "seeland",
   },
   {
     slug: "steffisburg",
@@ -174,6 +198,7 @@ export const regions: Region[] = [
     highlights: ["Schwarzseestrasse", "Flamatt", "Unterlangenegg"],
     distanceFromBern: "25 km",
     population: "16'000",
+    category: "oberland",
   },
   {
     slug: "muenchenbuchsee",
@@ -185,6 +210,7 @@ export const regions: Region[] = [
     highlights: ["Diemerswil", "Wiggiswil", "Mittelland"],
     distanceFromBern: "8 km",
     population: "11'000",
+    category: "suburban",
   },
   {
     slug: "schwarzenburg",
@@ -196,6 +222,7 @@ export const regions: Region[] = [
     highlights: ["Schwarzenburg Dorf", "Mamishaus", "Sensebezirk"],
     distanceFromBern: "22 km",
     population: "7'000",
+    category: "mittelland",
   },
   {
     slug: "moutier",
@@ -207,6 +234,7 @@ export const regions: Region[] = [
     highlights: ["Perrefitte", "Champoz", "Jura"],
     distanceFromBern: "45 km",
     population: "7'500",
+    category: "jura",
   },
   {
     slug: "bolligen",
@@ -218,6 +246,7 @@ export const regions: Region[] = [
     highlights: ["Bolligen Dorf", "Stettlen", "Itzigen"],
     distanceFromBern: "6 km",
     population: "7'000",
+    category: "suburban",
   },
   {
     slug: "ittigen",
@@ -229,6 +258,7 @@ export const regions: Region[] = [
     highlights: ["Ittigen Dorf", "Worblaufen", "Gümligen"],
     distanceFromBern: "4 km",
     population: "12'000",
+    category: "suburban",
   },
   {
     slug: "kirchlindach",
@@ -240,6 +270,7 @@ export const regions: Region[] = [
     highlights: ["Kirchlindach Dorf", "Herrenschwanden", "Mittelland"],
     distanceFromBern: "10 km",
     population: "5'500",
+    category: "suburban",
   },
   {
     slug: "seftigen",
@@ -251,6 +282,7 @@ export const regions: Region[] = [
     highlights: ["Gurten", "Gürbetal", "Seftigen Dorf"],
     distanceFromBern: "12 km",
     population: "2'800",
+    category: "oberland",
   },
   {
     slug: "wohlen-bei-bern",
@@ -262,6 +294,7 @@ export const regions: Region[] = [
     highlights: ["Wohlen Dorf", "Anglikon", "Mittelland"],
     distanceFromBern: "12 km",
     population: "4'500",
+    category: "suburban",
   },
   {
     slug: "kerzers",
@@ -273,6 +306,7 @@ export const regions: Region[] = [
     highlights: ["Moos", "Grosses Moos", "Seeland"],
     distanceFromBern: "25 km",
     population: "5'000",
+    category: "seeland",
   },
   {
     slug: "meiringen",
@@ -284,6 +318,7 @@ export const regions: Region[] = [
     highlights: ["Haslital", "Brünig", "Oberland"],
     distanceFromBern: "65 km",
     population: "4'600",
+    category: "oberland",
   },
   {
     slug: "frutigen",
@@ -295,6 +330,7 @@ export const regions: Region[] = [
     highlights: ["Kandertal", "Adelboden", "Frutigland"],
     distanceFromBern: "45 km",
     population: "7'000",
+    category: "oberland",
   },
   {
     slug: "laupen",
@@ -306,6 +342,7 @@ export const regions: Region[] = [
     highlights: ["Altstadt", "Saane", "Sensebezirk"],
     distanceFromBern: "18 km",
     population: "3'200",
+    category: "mittelland",
   },
   {
     slug: "aarberg",
@@ -317,6 +354,7 @@ export const regions: Region[] = [
     highlights: ["Altstadt", "Aare", "Seeland"],
     distanceFromBern: "22 km",
     population: "4'800",
+    category: "seeland",
   },
   {
     slug: "niederbipp",
@@ -328,6 +366,7 @@ export const regions: Region[] = [
     highlights: ["Oberaargau", "Jura-Südfuss", "Mittelland"],
     distanceFromBern: "38 km",
     population: "4'000",
+    category: "mittelland",
   },
   {
     slug: "muensingen",
@@ -339,6 +378,7 @@ export const regions: Region[] = [
     highlights: ["Münsingen Dorf", "Trimstein", "Rubigen"],
     distanceFromBern: "12 km",
     population: "13'000",
+    category: "suburban",
   },
 ];
 

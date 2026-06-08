@@ -144,6 +144,41 @@ export function createArticleSchema(article: {
   };
 }
 
+export function createServiceSchema(service: {
+  name: string;
+  description: string;
+  slug: string;
+  path?: string;
+  areaServed?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.name,
+    description: service.description,
+    url: `${siteConfig.domain}${service.path ?? `/dienstleistungen/${service.slug}`}`,
+    provider: {
+      "@type": "MovingCompany",
+      name: siteConfig.name,
+      url: siteConfig.domain,
+      telephone: siteConfig.phoneDisplay,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: siteConfig.address.street,
+        addressLocality: siteConfig.address.city,
+        postalCode: siteConfig.address.zip,
+        addressCountry: "CH",
+      },
+    },
+    areaServed: [
+      { "@type": "City", name: service.areaServed ?? "Bern" },
+      { "@type": "State", name: "Kanton Bern" },
+      { "@type": "Country", name: "Schweiz" },
+    ],
+    serviceType: service.name,
+  };
+}
+
 export function createFaqSchema(faqs: { question: string; answer: string }[]) {
   return {
     "@context": "https://schema.org",

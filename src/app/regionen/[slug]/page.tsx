@@ -1,7 +1,21 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { regions, getRegionBySlug } from "@/data/regions";
-import { createMetadata, createBreadcrumbSchema, createFaqSchema } from "@/lib/seo";
+import { services } from "@/data/services";
+import { ratgeberArticles } from "@/data/ratgeber";
+import {
+  createMetadata,
+  createBreadcrumbSchema,
+  createFaqSchema,
+  createServiceSchema,
+} from "@/lib/seo";
+import {
+  getRegionContent,
+  getRegionFaqs,
+  getRegionKeywords,
+  getNearbyRegions,
+} from "@/lib/region-content";
+import { renderContent } from "@/lib/content-renderer";
 import { images } from "@/lib/images";
 import Hero from "@/components/Hero";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -20,9 +34,9 @@ export async function generateMetadata({ params }: Props) {
 
   return createMetadata({
     title: `Umzug ${region.name} – Umzugsunternehmen ${region.plz}`,
-    description: `Professioneller Umzug in ${region.name} (${region.plz}). Privatumzug, Geschäftsumzug und Transport – zuverlässig und stressfrei. Jetzt Offerte anfordern!`,
+    description: `Professioneller Umzug in ${region.name} (${region.plz}): Privatumzug, Geschäftsumzug und Transport. Lokaler Umzugspartner aus Bern, ${region.distanceFromBern} entfernt. Kostenlose Offerte!`,
     path: `/regionen/${region.slug}`,
-    keywords: [`umzug ${region.name.toLowerCase()}`, `umzugsfirma ${region.name.toLowerCase()}`, `umzugsunternehmen ${region.name.toLowerCase()}`],
+    keywords: getRegionKeywords(region),
   });
 }
 
@@ -31,20 +45,10 @@ export default async function RegionPage({ params }: Props) {
   const region = getRegionBySlug(slug);
   if (!region) notFound();
 
-  const faqs = [
-    {
-      question: `Was kostet ein Umzug in ${region.name}?`,
-      answer: `Die Kosten für einen Umzug in ${region.name} hängen von Wohnungsgrösse, Stockwerk und Distanz ab. Eine 2.5-Zimmer-Wohnung kostet typischerweise CHF 1'200–2'200. Wir erstellen gerne eine kostenlose Offerte nach Besichtigung.`,
-    },
-    {
-      question: `Wie weit ist ${region.name} von Bern entfernt?`,
-      answer: `${region.name} liegt ca. ${region.distanceFromBern} von Bern entfernt. Unser Team ist regelmässig in ${region.name} im Einsatz und kennt die lokalen Gegebenheiten.`,
-    },
-    {
-      question: `Bieten Sie auch Geschäftsumzüge in ${region.name} an?`,
-      answer: `Ja, wir führen sowohl Privatumzüge als auch Geschäftsumzüge in ${region.name} und der gesamten Region Bern durch. Kontaktieren Sie uns für eine massgeschneiderte Offerte.`,
-    },
-  ];
+  const content = getRegionContent(region);
+  const faqs = getRegionFaqs(region);
+  const nearbyRegions = getNearbyRegions(region, regions);
+  const relatedArticles = ratgeberArticles.slice(0, 3);
 
   const breadcrumbSchema = createBreadcrumbSchema([
     { name: "Home", url: "/" },
@@ -53,15 +57,25 @@ export default async function RegionPage({ params }: Props) {
   ]);
 
   const faqSchema = createFaqSchema(faqs);
+  const serviceSchema = createServiceSchema({
+    name: `Umzug ${region.name}`,
+    description: `Professionelle Umzugsleistungen in ${region.name} (${region.plz}): Privatumzug, Geschäftsumzug und Transport.`,
+    slug: region.slug,
+    path: `/regionen/${region.slug}`,
+    areaServed: region.name,
+  });
 
-  const nearbyRegions = regions
-    .filter((r) => r.slug !== region.slug)
-    .slice(0, 6);
+  const servicesList = [
+    `Privatumzug in ${region.name} – Wohnungen und Häuser`,
+    `Geschäftsumzug in ${region.name} – Büros und Firmen`,
+    `Transport von ${region.name} nach Bern und schweizweit`,
+  ];
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
 
       <Hero
         title={`Umzug ${region.name.toUpperCase()}`}
@@ -82,10 +96,9 @@ export default async function RegionPage({ params }: Props) {
               <h2 className="text-2xl font-bold text-primary mb-6">
                 Umzugsunternehmen in {region.name}
               </h2>
-              <p className="text-text-muted leading-relaxed mb-6">{region.description}</p>
+              <p className="text-text-muted leading-relaxed text-lg mb-8">{region.description}</p>
 
-              <h3 className="text-xl font-bold text-primary mb-4">Quartiere & Gebiete</h3>
-              <div className="flex flex-wrap gap-2 mb-8">
+              <div className="flex flex-wrap gap-2 mb-10">
                 {region.highlights.map((h) => (
                   <span key={h} className="bg-surface border border-border text-sm px-3 py-1.5 rounded-full text-text-muted">
                     {h}
@@ -93,13 +106,15 @@ export default async function RegionPage({ params }: Props) {
                 ))}
               </div>
 
-              <h3 className="text-xl font-bold text-primary mb-4">Unsere Umzugsleistungen in {region.name}</h3>
-              <ul className="space-y-3 mb-8">
-                {[
-                  `Privatumzug in ${region.name} – Wohnungen und Häuser`,
-                  `Geschäftsumzug in ${region.name} – Büros und Firmen`,
-                  `Transport von ${region.name} nach Bern und schweizweit`,
-                ].map((item) => (
+              <div className="prose-content mb-10">
+                {renderContent(content)}
+              </div>
+
+              <h2 className="text-2xl font-bold text-primary mb-6">
+                Unsere Umzugsleistungen in {region.name}
+              </h2>
+              <ul className="space-y-3 mb-10">
+                {servicesList.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-text-muted">
                     <svg className="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
@@ -109,13 +124,15 @@ export default async function RegionPage({ params }: Props) {
                 ))}
               </ul>
 
-              <h3 className="text-xl font-bold text-primary mb-4">Häufige Fragen zum Umzug in {region.name}</h3>
-              <div className="space-y-4">
+              <h2 className="text-2xl font-bold text-primary mb-6">
+                Häufige Fragen zum Umzug in {region.name}
+              </h2>
+              <div className="space-y-4 mb-10">
                 {faqs.map((faq) => (
                   <details key={faq.question} className="bg-surface border border-border rounded-lg group">
                     <summary className="px-6 py-4 font-semibold text-primary cursor-pointer list-none flex items-center justify-between">
                       {faq.question}
-                      <svg className="w-5 h-5 text-accent group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className="w-5 h-5 text-accent group-open:rotate-180 transition-transform shrink-0 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                       </svg>
                     </summary>
@@ -125,6 +142,13 @@ export default async function RegionPage({ params }: Props) {
                   </details>
                 ))}
               </div>
+
+              <Link
+                href="/angebot"
+                className="inline-flex items-center bg-accent hover:bg-accent-hover text-primary-dark font-bold px-8 py-4 rounded text-sm uppercase tracking-wider transition-colors cursor-pointer"
+              >
+                Jetzt Offerte anfordern
+              </Link>
             </div>
 
             <div className="space-y-6">
@@ -159,23 +183,68 @@ export default async function RegionPage({ params }: Props) {
               </div>
 
               <div className="bg-surface border border-border rounded-lg p-6">
-                <h3 className="font-bold text-primary mb-4">Weitere Regionen</h3>
-                <ul className="space-y-2">
-                  {nearbyRegions.map((r) => (
-                    <li key={r.slug}>
-                      <Link href={`/regionen/${r.slug}`} className="text-sm text-text-muted hover:text-accent transition-colors cursor-pointer">
-                        Umzug {r.name}
+                <h3 className="font-bold text-primary mb-4">Unsere Dienstleistungen</h3>
+                <ul className="space-y-3">
+                  {services.map((s) => (
+                    <li key={s.slug}>
+                      <Link href={`/dienstleistungen/${s.slug}`} className="text-sm text-text-muted hover:text-accent transition-colors cursor-pointer">
+                        {s.shortTitle} {region.name}
                       </Link>
                     </li>
                   ))}
                 </ul>
+              </div>
+
+              <div className="bg-surface border border-border rounded-lg p-6">
+                <h3 className="font-bold text-primary mb-4">Nahe Regionen</h3>
+                <ul className="space-y-2">
+                  {nearbyRegions.map((r) => (
+                    <li key={r.slug}>
+                      <Link href={`/regionen/${r.slug}`} className="text-sm text-text-muted hover:text-accent transition-colors cursor-pointer">
+                        Umzug {r.name} ({r.distanceFromBern})
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <Link href="/regionen" className="inline-block mt-4 text-sm font-semibold text-accent hover:text-primary transition-colors cursor-pointer">
+                  Alle Regionen →
+                </Link>
+              </div>
+
+              <div className="bg-surface border border-border rounded-lg p-6">
+                <h3 className="font-bold text-primary mb-4">Ratgeber & Tipps</h3>
+                <ul className="space-y-3">
+                  {relatedArticles.map((a) => (
+                    <li key={a.slug}>
+                      <Link href={`/ratgeber/${a.slug}`} className="text-sm text-text-muted hover:text-accent transition-colors cursor-pointer">
+                        {a.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="bg-primary rounded-lg p-6 text-white">
+                <h3 className="font-bold text-accent mb-2">Kostenlose Offerte</h3>
+                <p className="text-white/70 text-sm mb-4">
+                  Erhalten Sie innerhalb von 24 Stunden eine unverbindliche Offerte für Ihren Umzug in {region.name}.
+                </p>
+                <Link
+                  href="/angebot"
+                  className="block text-center bg-accent hover:bg-accent-hover text-primary-dark font-bold px-6 py-3 rounded text-sm uppercase tracking-wider transition-colors cursor-pointer"
+                >
+                  Anfragen
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <CTA title={`Umzug in ${region.name}?`} subtitle={`Fordern Sie jetzt Ihre kostenlose Offerte für den Umzug in ${region.name} an.`} />
+      <CTA
+        title={`Umzug in ${region.name}?`}
+        subtitle={`Fordern Sie jetzt Ihre kostenlose Offerte für den Umzug in ${region.name} (${region.plz}) an – unverbindlich und innerhalb von 24 Stunden.`}
+      />
     </>
   );
 }
