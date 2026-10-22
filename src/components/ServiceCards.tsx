@@ -9,7 +9,7 @@ export default function ServiceCards() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <h2 className="text-3xl lg:text-4xl font-bold uppercase text-primary">
-            Unsere <span className="text-accent">Dienstleistungen</span>
+            Unsere <span className="text-accent-ink">Dienstleistungen</span>
           </h2>
           <p className="mt-4 text-text-muted max-w-2xl mx-auto">
             Von Privatumzügen über Geschäftsumzüge bis zu Räumungen, Entsorgungen und Reinigungen – wir bieten das komplette Spektrum.
@@ -39,13 +39,13 @@ export default function ServiceCards() {
                   </span>
                 </div>
                 <div className="p-6 flex flex-col flex-1">
-                  <h3 className="text-lg font-bold text-primary group-hover:text-accent transition-colors">
+                  <h3 className="text-lg font-bold text-primary group-hover:text-accent-ink transition-colors">
                     {service.shortTitle}
                   </h3>
                   <p className="mt-2 text-sm text-text-muted leading-relaxed flex-1">
                     {service.description}
                   </p>
-                  <span className="mt-4 inline-flex items-center text-sm font-semibold text-accent group-hover:text-primary transition-colors">
+                  <span className="mt-4 inline-flex items-center text-sm font-semibold text-accent-ink group-hover:text-primary transition-colors">
                     Erfahren Sie mehr
                     <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />

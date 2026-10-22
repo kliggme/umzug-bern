@@ -110,7 +110,7 @@ export default async function BlogArticlePage({ params }: Props) {
                   href={`/blog/${a.slug}`}
                   className="bg-white border border-border rounded-lg p-6 hover:border-accent transition-colors cursor-pointer"
                 >
-                  <span className="text-xs font-bold uppercase text-accent">{a.category}</span>
+                  <span className="text-xs font-bold uppercase text-accent-ink">{a.category}</span>
                   <h3 className="mt-2 font-bold text-primary">{a.title}</h3>
                   <p className="mt-2 text-sm text-text-muted line-clamp-2">{a.excerpt}</p>
                 </Link>

@@ -39,12 +39,12 @@ export default function KontaktPage() {
                   <p>{siteConfig.address.street}</p>
                   <p>{siteConfig.address.zip} {siteConfig.address.city}</p>
                   <p>
-                    <a href={`tel:${siteConfig.phoneMobile}`} className="hover:text-accent transition-colors cursor-pointer">
+                    <a href={`tel:${siteConfig.phoneMobile}`} className="hover:text-accent-ink transition-colors cursor-pointer">
                       Mobil: {siteConfig.phoneMobileDisplay}
                     </a>
                   </p>
                   <p>
-                    <a href={`mailto:${siteConfig.email}`} className="hover:text-accent transition-colors cursor-pointer">
+                    <a href={`mailto:${siteConfig.email}`} className="hover:text-accent-ink transition-colors cursor-pointer">
                       {siteConfig.email}
                     </a>
                   </p>

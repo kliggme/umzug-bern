@@ -9,7 +9,7 @@ export default function RegionalGrid({ limit }: { limit?: number }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <h2 className="text-3xl lg:text-4xl font-bold uppercase text-primary">
-            Umzug in der <span className="text-accent">Region Bern</span>
+            Umzug in der <span className="text-accent-ink">Region Bern</span>
           </h2>
           <p className="mt-4 text-text-muted max-w-2xl mx-auto">
             Wir sind in Bern und der gesamten Region für Sie im Einsatz – lokal, zuverlässig und termingerecht.
@@ -23,7 +23,7 @@ export default function RegionalGrid({ limit }: { limit?: number }) {
               href={`/regionen/${region.slug}`}
               className="group bg-surface border border-border rounded-lg px-4 py-3 text-center hover:border-accent hover:bg-white hover:shadow-md transition-all duration-200 cursor-pointer"
             >
-              <span className="text-sm font-semibold text-primary group-hover:text-accent transition-colors">
+              <span className="text-sm font-semibold text-primary group-hover:text-accent-ink transition-colors">
                 {region.name}
               </span>
               <span className="block text-xs text-text-muted mt-0.5">

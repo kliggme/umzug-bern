@@ -41,12 +41,12 @@ export default function Header() {
       <div className="bg-white border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-10 text-sm">
           <div className="flex items-center gap-4">
-            <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-1.5 text-accent hover:text-accent-hover transition-colors cursor-pointer">
+            <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-1.5 text-accent-ink hover:text-primary transition-colors cursor-pointer">
               <IconMail />
               <span className="hidden sm:inline">{siteConfig.email}</span>
             </a>
             <span className="text-border">|</span>
-            <a href={`tel:${siteConfig.phoneMobile}`} className="flex items-center gap-1.5 text-accent hover:text-accent-hover transition-colors cursor-pointer">
+            <a href={`tel:${siteConfig.phoneMobile}`} className="flex items-center gap-1.5 text-accent-ink hover:text-primary transition-colors cursor-pointer">
               <IconPhone />
               <span>{siteConfig.phoneMobileDisplay}</span>
             </a>
@@ -60,7 +60,7 @@ export default function Header() {
       </div>
 
       {/* Main nav */}
-      <div className="bg-primary">
+      <div className="bg-primary border-b-4 border-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 cursor-pointer">
             <span className="text-2xl font-bold italic text-accent font-[family-name:var(--font-heading)]">

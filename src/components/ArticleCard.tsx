@@ -54,13 +54,13 @@ export default function ArticleCard({
           <span>·</span>
           <span>{readTime}</span>
         </div>
-        <h3 className="text-lg font-bold text-primary group-hover:text-accent transition-colors line-clamp-2">
+        <h3 className="text-lg font-bold text-primary group-hover:text-accent-ink transition-colors line-clamp-2">
           {title}
         </h3>
         <p className="mt-2 text-sm text-text-muted leading-relaxed line-clamp-3 flex-1">
           {excerpt}
         </p>
-        <span className="mt-4 inline-flex items-center text-sm font-semibold text-accent group-hover:text-primary transition-colors">
+        <span className="mt-4 inline-flex items-center text-sm font-semibold text-accent-ink group-hover:text-primary transition-colors">
           Weiterlesen
           <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />

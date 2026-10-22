@@ -42,7 +42,7 @@ export default function ImpressumPage() {
                 href="https://heydigital.ch"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-accent hover:text-primary transition-colors"
+                className="text-accent-ink hover:text-primary transition-colors"
               >
                 heydigital.ch
               </a>

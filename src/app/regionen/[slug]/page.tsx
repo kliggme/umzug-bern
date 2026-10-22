@@ -117,7 +117,7 @@ export default async function RegionPage({ params }: Props) {
               <ul className="space-y-3 mb-10">
                 {servicesList.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-text-muted">
-                    <svg className="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-5 h-5 text-accent-ink shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                     {item}
@@ -133,7 +133,7 @@ export default async function RegionPage({ params }: Props) {
                   <details key={faq.question} className="bg-surface border border-border rounded-lg group">
                     <summary className="px-6 py-4 font-semibold text-primary cursor-pointer list-none flex items-center justify-between">
                       {faq.question}
-                      <svg className="w-5 h-5 text-accent group-open:rotate-180 transition-transform shrink-0 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className="w-5 h-5 text-accent-ink group-open:rotate-180 transition-transform shrink-0 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                       </svg>
                     </summary>
@@ -188,7 +188,7 @@ export default async function RegionPage({ params }: Props) {
                 <ul className="space-y-3">
                   {services.map((s) => (
                     <li key={s.slug}>
-                      <Link href={`/dienstleistungen/${s.slug}`} className="text-sm text-text-muted hover:text-accent transition-colors cursor-pointer">
+                      <Link href={`/dienstleistungen/${s.slug}`} className="text-sm text-text-muted hover:text-accent-ink transition-colors cursor-pointer">
                         {s.shortTitle} {region.name}
                       </Link>
                     </li>
@@ -201,13 +201,13 @@ export default async function RegionPage({ params }: Props) {
                 <ul className="space-y-2">
                   {nearbyRegions.map((r) => (
                     <li key={r.slug}>
-                      <Link href={`/regionen/${r.slug}`} className="text-sm text-text-muted hover:text-accent transition-colors cursor-pointer">
+                      <Link href={`/regionen/${r.slug}`} className="text-sm text-text-muted hover:text-accent-ink transition-colors cursor-pointer">
                         Umzug {r.name} ({r.distanceFromBern})
                       </Link>
                     </li>
                   ))}
                 </ul>
-                <Link href="/regionen" className="inline-block mt-4 text-sm font-semibold text-accent hover:text-primary transition-colors cursor-pointer">
+                <Link href="/regionen" className="inline-block mt-4 text-sm font-semibold text-accent-ink hover:text-primary transition-colors cursor-pointer">
                   Alle Regionen →
                 </Link>
               </div>
@@ -217,7 +217,7 @@ export default async function RegionPage({ params }: Props) {
                 <ul className="space-y-3">
                   {relatedArticles.map((a) => (
                     <li key={a.slug}>
-                      <Link href={`/ratgeber/${a.slug}`} className="text-sm text-text-muted hover:text-accent transition-colors cursor-pointer">
+                      <Link href={`/ratgeber/${a.slug}`} className="text-sm text-text-muted hover:text-accent-ink transition-colors cursor-pointer">
                         {a.title}
                       </Link>
                     </li>

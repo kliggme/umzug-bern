@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import ServiceCards from "@/components/ServiceCards";
-import Testimonials from "@/components/Testimonials";
+import Trust from "@/components/Trust";
 import RegionalGrid from "@/components/RegionalGrid";
 import RatgeberPreview from "@/components/RatgeberPreview";
 import CTA from "@/components/CTA";
@@ -19,7 +19,7 @@ export default function HomePage() {
       />
 
       {/* Trust badges */}
-      <section className="py-12 bg-white border-b border-border">
+      <section className="py-12 bg-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
@@ -29,8 +29,8 @@ export default function HomePage() {
               { value: "CH", label: "Schweizweit im Einsatz" },
             ].map((stat) => (
               <div key={stat.label}>
-                <p className="text-3xl lg:text-4xl font-bold text-accent">{stat.value}</p>
-                <p className="mt-1 text-sm text-text-muted font-medium">{stat.label}</p>
+                <p className="text-3xl lg:text-4xl font-bold text-primary-dark">{stat.value}</p>
+                <p className="mt-1 text-sm text-primary font-medium">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -43,7 +43,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold uppercase text-primary">
-                Warum wir Ihr <span className="text-accent">richtiger Partner</span> sind
+                Warum wir Ihr <span className="text-accent-ink">richtiger Partner</span> sind
               </h2>
               <div className="w-16 h-1 bg-accent mt-4 mb-6" />
               <p className="text-text-muted leading-relaxed">
@@ -59,7 +59,7 @@ export default function HomePage() {
                   "Transparente Preise ohne versteckte Kosten",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-text-muted">
-                    <svg className="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-5 h-5 text-accent-ink shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                     {item}
@@ -68,7 +68,7 @@ export default function HomePage() {
               </ul>
               <Link
                 href="/ueber-uns"
-                className="inline-flex items-center mt-8 text-sm font-semibold text-accent hover:text-primary transition-colors cursor-pointer"
+                className="inline-flex items-center mt-8 text-sm font-semibold text-accent-ink hover:text-primary transition-colors cursor-pointer"
               >
                 Mehr über uns erfahren
                 <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -106,7 +106,7 @@ export default function HomePage() {
       </section>
 
       <ServiceCards />
-      <Testimonials />
+      <Trust />
       <RegionalGrid limit={15} />
       <RatgeberPreview />
       <CTA />
