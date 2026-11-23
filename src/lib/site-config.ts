@@ -9,7 +9,7 @@ export const siteConfig = {
   contactPerson: "Aleksander Toma",
   email: "info@umzug-bern.ch",
   address: {
-    street: "Riedbachstrasse 51",
+    street: "Billeweg 24",
     zip: "3027",
     city: "Bern",
     country: "Schweiz",

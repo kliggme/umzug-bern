@@ -102,7 +102,7 @@ Egal ob Erstwohnung, Wohnungswechsel innerhalb Berns oder Umzug von Zürich, Bas
 
 ## Warum Umzug Bern als Ihr Privatumzugspartner?
 
-Als lokales Unternehmen mit Sitz in Bern (Riedbachstrasse 51, 3027 Bern) sind wir schnell vor Ort, kennen die Region und sprechen Ihre Sprache. Kein anonymer Callcenter-Umzug aus der Ferne, sondern ein Team, das Bern wirklich kennt. Feste Ansprechpartner, faire Preise, pünktliche Termine und ein freundliches, erfahrenes Umzugsteam – das ist unser Versprechen.`,
+Als lokales Unternehmen mit Sitz in Bern (Billeweg 24, 3027 Bern) sind wir schnell vor Ort, kennen die Region und sprechen Ihre Sprache. Kein anonymer Callcenter-Umzug aus der Ferne, sondern ein Team, das Bern wirklich kennt. Feste Ansprechpartner, faire Preise, pünktliche Termine und ein freundliches, erfahrenes Umzugsteam – das ist unser Versprechen.`,
     faqs: [
       {
         question: "Was kostet ein Privatumzug in Bern?",
@@ -442,15 +442,15 @@ Typische Reinigungsaufträge:
 
 ## Preisübersicht Reinigung Bern
 
-| Reinigungsart | Geschätzte Kosten |
+| Reinigungsart | Preis |
 |---|---|
-| 1.5–2.5-Zimmer Endreinigung | CHF 450 – 850 |
-| 3.5–4.5-Zimmer Endreinigung | CHF 650 – 1'150 |
-| 5.5+ Zimmer / Einfamilienhaus | CHF 950 – 1'750 |
-| Büroreinigung (nach m²) | ab CHF 4.50/m² |
-| Fensterreinigung (Zuschlag) | ab CHF 110 |
+| 1.5–2.5-Zimmer Endreinigung | Preis auf Anfrage |
+| 3.5–4.5-Zimmer Endreinigung | Preis auf Anfrage |
+| 5.5+ Zimmer / Einfamilienhaus | Preis auf Anfrage |
+| Büroreinigung (nach m²) | Preis auf Anfrage |
+| Fensterreinigung (Zuschlag) | Preis auf Anfrage |
 
-Die genauen Kosten hängen von Wohnungsgrösse, Zustand, Stockwerk und Umfang ab. Nach einer Besichtigung erstellen wir eine transparente Offerte.
+Die Kosten hängen von Wohnungsgrösse, Zustand, Stockwerk und Umfang ab. Nach einer Besichtigung erstellen wir eine individuelle Offerte.
 
 ## Wann lohnt sich eine professionelle Reinigung?
 
@@ -486,7 +486,7 @@ Wir kennen die Anforderungen von Vermietern und Verwaltungen in Bern. Unser Team
       {
         question: "Was kostet eine Endreinigung in Bern?",
         answer:
-          "Eine Endreinigung für eine 3.5-Zimmer-Wohnung kostet typischerweise CHF 650–1'150, abhängig vom Zustand und Umfang. Nach Besichtigung erhalten Sie eine genaue Offerte.",
+          "Die Kosten einer Endreinigung hängen von Wohnungsgrösse, Zustand und Umfang ab. Den Preis nennen wir auf Anfrage – nach einer Besichtigung erhalten Sie eine genaue Offerte.",
       },
       {
         question: "Können Reinigung und Umzug kombiniert werden?",
